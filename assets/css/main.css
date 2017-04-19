@@ -23,6 +23,14 @@ section {
   position: relative;
 }
 
+.image-coder {
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+  -moz-filter: brightness(0.7);
+  -o-filter: brightness(0.7);
+  -ms-filter: brightness(0.7);
+}
+
 .name-coder {
   position: absolute;
   bottom: 20px;
