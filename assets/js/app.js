@@ -8,13 +8,12 @@ window.addEventListener("load", function(){
     titulo.appendChild(document.createTextNode(frase));
 
     var hr = document.createElement("hr");
-    hr.setAttribute("width","200px");
     cuerpo.appendChild(hr);
   };
   AddTitle("Nuestras coders");
 
 /** Agregando coders **/
-  var coders = ["arantza burga","elizabeth condori","grecia rayme","janine vega","michelle more","rosario felix","yenny velasquez"];
+  var coders = ["arantza burga","elizabeth condori","grecia rayme","michelle more","rosario felix","yenny velasquez"];
   var section = document.createElement("section");
   cuerpo.appendChild(section);
 
@@ -34,6 +33,7 @@ window.addEventListener("load", function(){
       var figcap = document.createElement("figcaption");
       figcap.setAttribute("class","name-coder");
       figure.appendChild(figcap);
+      figcap.appendChild(document.createTextNode(e));
     })
   };
   AddCoders(coders);
