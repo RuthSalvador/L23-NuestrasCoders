@@ -38,6 +38,12 @@ window.addEventListener("load", function(){
   };
   AddCoders(coders);
 
-
+/** Agregando footer **/
+  function AddFooter(texto){
+    var footer = document.createElement("footer");
+    cuerpo.appendChild(footer);
+    footer.appendChild(document.createTextNode(texto));
+  };
+  AddFooter("~~ Coded by Ruth Salvador ~~")
 
 })
